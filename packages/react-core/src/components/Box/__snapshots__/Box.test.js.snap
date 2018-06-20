@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box with Header, Body, Footer 1`] = `
+.pf-c-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(3, 3, 3, 0.2);
+}
+
+<div
+  className="pf-c-box"
+>
+  <BoxHeader
+    className=""
+  >
+     Box Header 
+  </BoxHeader>
+  <BoxBody
+    className=""
+  >
+     Box Body 
+  </BoxBody>
+  <BoxFooter
+    className=""
+  >
+     Box Footer 
+  </BoxFooter>
+</div>
+`;
+
+exports[`Box with no footer 1`] = `
+.pf-c-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(3, 3, 3, 0.2);
+}
+
+<div
+  className="pf-c-box"
+>
+  <BoxHeader
+    className=""
+  >
+     Box Header 
+  </BoxHeader>
+  <BoxBody
+    className=""
+  >
+     Box Body 
+  </BoxBody>
+</div>
+`;
+
+exports[`Box with no header 1`] = `
+.pf-c-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(3, 3, 3, 0.2);
+}
+
+<div
+  className="pf-c-box"
+>
+  <BoxBody
+    className=""
+  >
+     This box has no header 
+  </BoxBody>
+  <BoxFooter
+    className=""
+  >
+     Box Footer 
+  </BoxFooter>
+</div>
+`;
+
+exports[`Box with only content 1`] = `
+.pf-c-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(3, 3, 3, 0.2);
+}
+
+<div
+  className="pf-c-box"
+>
+  <BoxBody
+    className=""
+  >
+     Box Body 
+  </BoxBody>
+</div>
+`;
+
+exports[`Regular Box 1`] = `
+.pf-c-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(3, 3, 3, 0.2);
+}
+
+<div
+  className="pf-c-box"
+/>
+`;
