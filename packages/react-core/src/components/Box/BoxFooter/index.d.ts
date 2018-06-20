@@ -1,4 +1,4 @@
 export {
   default as BoxFooter,
-  BoxProps
+  BoxFooterProps
 } from './BoxFooter';

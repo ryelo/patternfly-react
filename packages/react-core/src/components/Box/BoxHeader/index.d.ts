@@ -1,4 +1,4 @@
 export {
   default as BoxHeader,
-  BoxProps
+  BoxHeaderProps
 } from './BoxHeader';

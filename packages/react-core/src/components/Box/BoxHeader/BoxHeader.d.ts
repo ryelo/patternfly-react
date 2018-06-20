@@ -1,9 +1,9 @@
 import { HTMLProps } from 'react';
 
-export interface BoxProps extends HTMLProps<HTMLDivElement> {
+export interface BoxHeaderrops extends HTMLProps<HTMLDivElement> {
   children?: React.ReactNode;
 }
 
-declare const BoxHeader: React.SFC<BoxProps>;
+declare const BoxHeader: React.SFC<BoxHeaderProps>;
 
 export default BoxHeader;

@@ -1,4 +1,4 @@
 export {
   default as BoxBody,
-  BoxProps
+  BoxBodyProps
 } from './BoxBody';
