@@ -1,15 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Box has body 1`] = `
-.pf-c-box {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  box-shadow: 0 0.0625rem 0.125rem 0 rgba(3, 3, 3, 0.2);
+.pf-c-box__body {
+  display: block;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 <div
-  className="pf-c-box"
+  className="pf-c-box__body"
 >
   Box Body
 </div>
